@@ -1,0 +1,322 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+aside{
+    width: 21%;
+    height: 100%;
+    background-color: rgb(223, 71, 234);
+    position: fixed;
+}
+aside h2{
+    margin: auto;
+    padding: 40px;
+    padding-bottom: 35%;
+    padding-top: 30%;
+    text-align: center;
+    color: white;
+}
+aside ul{
+ text-align: left;
+ padding-top:0% ;
+ padding-left: 12%;
+}
+aside ul li{
+    list-style: none;
+    padding: 15px;
+}
+aside ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+aside ul li a:hover{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    padding-right: 90px;
+    border-radius: 5px;
+}
+header{
+    margin-left: 25%;
+    padding-top: 6%;
+    color: black;
+    font-size: 26px;
+}
+nav{
+    margin-left: 25%;
+    padding: 0%;
+}
+nav h2{
+    font-size: 45px;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    color: rgb(156, 117, 59);
+    text-decoration:underline;
+}
+nav img{
+    width: 45%;
+    height: 400px;
+    opacity: 0.6;
+}
+nav img:hover{
+   opacity: 100%;
+}
+.Services{
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.Services h2{
+    font-size: 45px;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    color: rgb(156, 117, 59);
+    text-decoration:underline;
+}
+.Services p{
+    width: 90%;
+    font-size: 22px;
+}
+.Designers{
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.Designers h2{
+    font-size: 45px;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    color: rgb(156, 117, 59);
+    text-decoration:underline;
+}
+.Designers p{
+    width: 90%;
+    font-size: 22px;
+}
+h4{
+    padding-top:50px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+div{
+    display: inline-block;
+}
+#team1 {
+    position: absolute;
+    width: 22%;
+    height: 380px;
+    border: 15px solid rgb(156, 117, 59);
+    display: block;
+    border-radius: 12px;
+}
+#sss{
+     padding: 5px;
+     color: rgb(225, 123, 233);
+}
+#ddd{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#team2 {
+    margin-left: 25%;
+    position: absolute;
+    width: 22%;
+    height: 380px;
+    border: 15px solid rgb(156, 117, 59);
+    display: block;
+    border-radius: 12px;
+}
+#team3{
+    margin-left: 50%;
+    position: absolute;
+    width: 22%;
+    height: 380px;
+    border: 15px solid rgb(156, 117, 59);
+    display: block;
+    border-radius: 12px;
+}
+.Packages{
+    margin-top: 42%;
+    margin-left: 25%;
+}
+.Packages h2{
+    font-size: 45px;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    color: rgb(156, 117, 59);
+    text-decoration:underline;
+}
+.Packages p{
+    width: 90%;
+    font-size: 22px;
+    margin-bottom: 7%;
+}
+#box1{
+    margin-left: 4%;
+    position: absolute;
+    width: 28%;
+    height: 650px;
+    color: black;
+    display: block;
+    background-color: rgb(191, 157, 136);
+}
+#box1 #head{
+    font-size: 20px;
+    background-color: rgb(228, 122, 235);
+    text-decoration: none;
+    padding: 25px;
+    color: black;
+}
+#box1 h3{
+    text-align: center;
+    padding: 27px;
+}
+#box1 #mm{
+    font-size: 30px;
+    color: black;
+    padding-bottom: 0%;
+}
+#box1 p{
+    opacity: 50%;
+    padding-bottom: 12px;
+}
+#box1 a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(218, 195, 180);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#box1 a:hover{
+    width: 230px;
+    height: 75px;
+    font-size: 25px;
+    background-color: rgb(228, 122, 235);
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#box2{
+    margin-left: 40%;
+    position: absolute;
+    width: 28%;
+    height: 650px;
+    color: black;
+    display: block;
+    background-color: rgb(191, 157, 136);
+}
+#box2 #head2{
+    font-size: 20px;
+    background-color: rgb(228, 122, 235);
+    text-decoration: none;
+    padding: 25px;
+    color: black;
+}
+#box2 h3{
+    text-align: center;
+    padding: 27px;
+    background-color: rgb(191, 157, 136);
+}
+#box2 #mm2{
+    font-size: 30px;
+    color: black;
+    padding-bottom: 0%;
+    background-color: rgb(191, 157, 136);
+}
+#box2 p{
+    opacity: 50%;
+    padding-bottom: 12px;
+}
+#box2 a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(218, 195, 180);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#box2 a:hover{
+    width: 230px;
+    height: 75px;
+    font-size: 25px;
+    background-color: rgb(228, 122, 235);
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Contact{
+    margin-top: 60%;
+    margin-left: 25%;
+}
+.Contact h2{
+    font-size: 45px;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    color: rgb(156, 117, 59);
+    text-decoration:underline;
+}
+.Contact p{
+    width: 90%;
+    font-size: 22px;
+    margin-bottom: 7%;
+}
+label{
+    font-size: 20px;
+    margin: 5px;
+}
+input{
+    width: 85%;
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 22px;
+}
+#last{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(218, 195, 180);
+    margin-left: 8px;
+    margin-top:70px ;
+    padding-left: 35%;
+    padding-right:35%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#last:hover{
+    width: 85%;
+    height: 30px;
+    font-size: 25px;
+    background-color: rgb(228, 122, 235);
+    text-decoration: none;
+    padding-left: 35%;
+    padding-right:35%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.footer{
+    margin-bottom: 150px;
+}
+.footer a{
+    margin-left: 75%;
+   position: absolute;
+   top: 695%;
+   right: 10%;
+   text-decoration: none;
+    color: black;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.footer a:hover{
+    color: black;
+    background-color:rgb(228, 122, 235);
+}
